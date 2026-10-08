@@ -6,22 +6,50 @@ The points $A=(0,0,0)$, $B=(2,1,0)$, and $C=(1,3,2)$ form a triangle. Construct 
 
 ## Solution
 
-The two sides from $A$ are
+### Essential formulas and theory
+
+A vector from one point to another is found by subtracting coordinates: $\overrightarrow{AB}=B-A$. For $u=(u_1,u_2,u_3)$ and $v=(v_1,v_2,v_3)$,
 
 $$
-\overrightarrow{AB}=(2,1,0),\qquad \overrightarrow{AC}=(1,3,2).
+u\times v=(u_2v_3-u_3v_2,\;u_3v_1-u_1v_3,\;u_1v_2-u_2v_1),\qquad
+\|u\|=\sqrt{u_1^2+u_2^2+u_3^2}.
 $$
 
-Their cross product is
+The cross-product length equals base times height, so it gives the parallelogram area. A diagonal divides the parallelogram into two congruent triangles; therefore,
 
 $$
-\overrightarrow{AB}\times\overrightarrow{AC}=(2,-4,5),
+S_{\mathrm{parallelogram}}=\|u\times v\|,\qquad
+S_{\mathrm{triangle}}=\frac12\|u\times v\|.
 $$
 
-whose length is $\sqrt{4+16+25}=\sqrt{45}=3\sqrt5$. Therefore the parallelogram area is $3\sqrt5$ and the triangle area is
+### Step 1. Construct the side vectors
 
 $$
-\frac12\,3\sqrt5=\frac{3\sqrt5}{2}.
+\begin{aligned}
+u=\overrightarrow{AB}&=(2-0,1-0,0-0)=(2,1,0), \\
+v=\overrightarrow{AC}&=(1-0,3-0,2-0)=(1,3,2).
+\end{aligned}
 $$
 
-The diagonal of a parallelogram made from the two side vectors divides it into two congruent triangles, which explains the factor $1/2$.
+### Step 2. Compute the cross product
+
+$$
+\begin{aligned}
+u\times v&=(1\cdot2-0\cdot3,\;0\cdot1-2\cdot2,\;2\cdot3-1\cdot1) \\
+&=(2-0,\;0-4,\;6-1)=(2,-4,5).
+\end{aligned}
+$$
+
+### Step 3. Find both areas
+
+$$
+S_{\mathrm{parallelogram}}
+=\sqrt{2^2+(-4)^2+5^2}
+=\sqrt{4+16+25}=\sqrt{45}=3\sqrt5.
+$$
+
+Taking half gives the triangle area:
+
+$$
+S_{\mathrm{triangle}}=\frac12\,3\sqrt5=\frac{3\sqrt5}{2}.
+$$
