@@ -1,4 +1,4 @@
-### Exercise 1. Matrix Size and Entries
+### Exercise 1: Matrix Size and Entries
 Given
 
 $$
@@ -20,7 +20,7 @@ $$
 
 > **Why this exercise:** builds basic fluency with matrix notation, indices, rows, and columns.
 
-### Solution – Exercise 1. Matrix Size and Entries
+### Solution: Exercise 1. Matrix Size and Entries
 
 **1. Matrix sizes**
 
