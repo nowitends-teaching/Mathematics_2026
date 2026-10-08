@@ -1,4 +1,6 @@
-# Mathematics
+# Mathematics 2026
+
+My private repository with my notes.
 
 Welcome to the **Mathematics Student Workbook**. This repository contains exercise sheets and templates for preparing solutions.
 
