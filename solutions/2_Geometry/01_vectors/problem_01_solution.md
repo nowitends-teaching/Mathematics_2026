@@ -29,3 +29,9 @@ $$
 $$
 
 Geometrically, adding vectors means placing the tail of the second vector at the head of the first; the sum is the displacement from the original tail to the final head (equivalently, the diagonal of the parallelogram).
+
+### 3D illustration
+
+![Three 3D plots showing u+v=(1,3,5), u-v=(3,-5,1), and 3u-2v=(8,-11,5), with translated vectors illustrating the head-to-tail construction.](assets/problem_01_vectors_3d.png)
+
+The blue and orange arrows are the vectors being combined; the green arrow is their sum. The dashed orange arrow places the second vector at the tip of the first without changing its length or direction. Subtraction uses $u-v=u+(-v)$, and the third panel adds $3u$ and $-2v$. Each panel uses equal scales on its three axes; the panels use different ranges to fit their vectors.
